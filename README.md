@@ -1,42 +1,35 @@
-📸 Image Gallery 
+# Image Gallery Application
+
+## 📌 Project Description
 
 A full-stack Image Gallery web application that allows users to upload, view, and delete images.
 Built using Spring Boot (Backend) and React.js (Frontend).
 
 🚀 Features
 
-✔ Upload image
-✔ View all uploaded images
-✔ View single image
-✔ Delete image
-✔ REST API based backend
-✔ Simple and responsive UI
+- User Login
+- Add Image
+- View Images
+- Delete Image
+- REST API based backend
+-Simple and responsive UI
 
-🛠️ Tech Stack
+🛠️ Technologies Used
 Frontend
-
 React.js
-
 JavaScript
-
 CSS
 
 Axios (API calls)
 
 Backend
-
 Spring Boot
-
 Spring Web
-
 Spring Data JPA
-
 REST API
-
 Multipart File Upload
 
 Database
-
 MySQL 
 
 📂 Project Structure
@@ -135,18 +128,18 @@ Step 3:
 
 Application will start successfully on:
 
-http://localhost:8080
+http://localhost:8087
 🔹 2️⃣ Test APIs using Postman
 
 Use the following APIs:
 
-Add Image → POST http://localhost:8080/api/add
+Add Image → POST http://localhost:8087/api/add
 
-Get All Images → GET http://localhost:8080/api/getAll
+Get All Images → GET http://localhost:8087/api/getAll
 
-Get Image By ID → GET http://localhost:8080/api/getOne/{id}
+Get Image By ID → GET http://localhost:8087/api/getOne/{id}
 
-Delete Image → DELETE http://localhost:8080/api/delete/{id}
+Delete Image → DELETE http://localhost:8087/api/delete/{id}
 
 After adding data →
 You can check MySQL database table to verify data is stored.
@@ -202,6 +195,3 @@ Deploy project online
 ✨ Thank you for reviewing this project. I’m open to feedback and continuously working to improve my development skills.
 
 
-Pagination
-
-Cloud storage integration
